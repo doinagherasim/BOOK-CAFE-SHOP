@@ -18,10 +18,10 @@
 .reservation {
     position: absolute;
     color: white;
+    border: 1px solid white;
     top: 75px;
     right: 300px;
     width: 180px;
-    border: 1px solid white;
     padding: 10px;
     text-align: center;
     color: white;
@@ -39,9 +39,78 @@
     color: black;
 }
 .menuList {
+    position: fixed;
     width: 100%;
     background-color: black;
+    height: 100vh;
+    z-index: 2;
+    top: 0px;
+    transition-timing-function: ease-in;
 }
+.menuList:hover {
+    width: 100%;
+}
+
+
 .hidden {
     display: none;
+    width: 1px;
+    transition: width 2s;
+}
+.caffeeMenu {
+    width: 578px;
+    height: 789px;
+    object-fit: cover;
+    margin-left: 145px;
+    position: absolute;
+}
+.list {
+   width: 550px;
+   height: 800px;
+   position: absolute;
+   right: 0px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 100px;
+}
+.xBtn {
+  width:50px;
+  height: 40px;
+  font-size: 30px;
+  right: 30px;
+  position: absolute;
+  border: none;
+  background-color: black;
+  color:white;
+}
+.xBtn:hover {
+    cursor: pointer;
+}
+.menuLink {
+    color: #a1a1a1;
+    text-decoration: none;
+    font-family: "Brandon-font",Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+.menuLink:hover {
+    color: white;
+}
+.menuImg:hover {
+    cursor: pointer;
+}
+.findUs {
+    margin-top: 40px;
+    font-size: 8px;
+}
+.contact {
+    color: #fff;
+    font-family: "Brandon-font",Sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: none;
 }
