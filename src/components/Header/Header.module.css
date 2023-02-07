@@ -1,0 +1,47 @@
+.headerWrap {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+.bookImg {
+    width:100px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.menuImg {
+    position: absolute;
+    top: 65px;
+    right: 200px;
+    width: 60px;
+}
+.reservation {
+    position: absolute;
+    color: white;
+    top: 75px;
+    right: 300px;
+    width: 180px;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: "Brandon-font",Sans-serif;
+    letter-spacing: 3.5px;
+    font-weight: lighter;
+}
+.reservation:hover {
+    background-color: white;
+    color: black;
+}
+.reservation:active {
+    background-color: white;
+    color: black;
+}
+.menuList {
+    width: 100%;
+    background-color: black;
+}
+.hidden {
+    display: none;
+}
