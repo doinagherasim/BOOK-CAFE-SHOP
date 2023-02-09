@@ -18,7 +18,7 @@ function Header (){
 
    return (
    <div className={classes.headerWrap}>
-      <a href="/home"><img src={bookcafe} className={classes.bookImg} alt="bookcafe"/></a>
+      <a href="/acasa"><img src={bookcafe} className={classes.bookImg} alt="bookcafe"/></a>
       <div className={classes.menuWrap}>
          <img className={classes.menuImg} src={menu} alt="menu" onClick={showMenu}/>
       </div>
