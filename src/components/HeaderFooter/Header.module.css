@@ -114,3 +114,56 @@
     letter-spacing: 1px;
     text-transform: none;
 }
+.footer {
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    width:100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Brandon-font",Sans-serif;
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 12px;
+}
+.linkFooter {
+    color: rgba(255, 255, 255, 0.62);
+    text-decoration: none;
+}
+.linkFooter:hover {
+color: white;
+}
+.wrap {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 72%;
+     
+}
+.title {
+    color: #1a1818;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 200;
+    letter-spacing: 3.5px;
+    border-bottom: 4px solid black;
+    width: 250px;
+    margin-top: 50px;
+}
+.subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight:  50;
+    letter-spacing: 0.5px;
+    color: black;
+}
+.text {
+    display: flex;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight:  50;
+    letter-spacing: 0.5px;
+    color: black;
+
+}
