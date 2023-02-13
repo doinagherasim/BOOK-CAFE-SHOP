@@ -3,6 +3,7 @@ import Header from "./components/HeaderFooter/Header.js"
 import Terms from "./components/HeaderFooter/Terms.js";
 import Cookies from "./components/HeaderFooter/Cookies.js";
 import Contact from "./components/Home/Contact";
+import Program from "./components/Home/Program";
 import Home from "./components/Home/Home";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/contact" exact element={<Contact/>}/>
         <Route path="/termenisiconditii" exact element={<Terms/>}/>
         <Route path="/cookies" exact element={<Cookies/>}/>
+        <Route path="/program" exact element={<Program/>}/>
    </Routes>
     </div>
   );
