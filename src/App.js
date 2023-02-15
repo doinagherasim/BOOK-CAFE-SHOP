@@ -5,6 +5,7 @@ import Cookies from "./components/HeaderFooter/Cookies.js";
 import Contact from "./components/Home/Contact";
 import Program from "./components/Home/Program";
 import Home from "./components/Home/Home";
+import Menu from "./components/Home/Menu.js";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/termenisiconditii" exact element={<Terms/>}/>
         <Route path="/cookies" exact element={<Cookies/>}/>
         <Route path="/program" exact element={<Program/>}/>
+        <Route path="/meniu" exact element={<Menu/>}/>
    </Routes>
     </div>
   );

@@ -30,7 +30,7 @@ function Header (){
             <a href="/acasa" className={classes.menuLink} style={{marginTop:80}}>ACASĂ</a>
             <a href="/rezervari" className={classes.menuLink}>REZERVĂRI</a>
             <a href="/program" className={classes.menuLink}>Program</a>
-            <a href="/restaurant" className={classes.menuLink}>Restaurant</a>
+            <a href="/meniu" className={classes.menuLink}>MENIU</a>
             <a href="/recenzii" className={classes.menuLink}>RECENZII</a>
             <a href="/poeZIUA" className={classes.menuLink}>POEziua</a>
             <a href="/contact" className={classes.menuLink}>Contact</a>
